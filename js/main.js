@@ -8,3 +8,9 @@ $('#navbarCollapse').onePageNav({
 	filter: '',
 	easing: 'swing',
 });
+
+/* Effect on Scroll */
+AOS.init({
+	offset: 200,
+	duration: 1000,
+});
