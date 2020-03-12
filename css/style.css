@@ -263,7 +263,7 @@ footer .footer-logo img {
         margin-top: 30px;
         margin-left: 0px;
         margin-right: 0px;
-        height: 60vh;
+        /* height: 60vh; */
     }
     .posgrado h5 {
         font-size: 30px;
@@ -276,7 +276,7 @@ footer .footer-logo img {
     }
     .maestrias {
         padding-top: 50px;
-        height: 195vh;
+        /* height: 195vh; */
     }
     .maestrias p.h1 {
         padding-bottom: 20px;
@@ -284,11 +284,11 @@ footer .footer-logo img {
     .maestrias .card {
         margin-top: 15px;
         background-color: #f0f9ff;
-        height: 620px;
+        /* height: 620px; */
     }
     .diplomados {
         padding-top: 190px;
-        height: 90vh;
+        /* height: 90vh; */
         background-color: #f0f9ff;
         border-left: 0px solid #f0f9ff !important;
     }
@@ -297,7 +297,7 @@ footer .footer-logo img {
     }
     .cita {
         padding-top: 70px;
-        height: 400px;
+        /* height: 400px; */
     }
     .cita p {
         color: white;
@@ -313,7 +313,7 @@ footer .footer-logo img {
         border: none;
     }
     footer {
-        height: 600px;
+        /* height: 600px; */
     }
     .footer .direccion-utec {
         padding-top: 20px;
