@@ -70,9 +70,12 @@ nav li.active .btn-primary {
 
 /* Seccion Posgrado UTEC */
 
-.video video {
-    width: 100%;
+.video {
     margin-top: 95px;
+}
+
+video {
+    width: 100%;
 }
 
 .posgrado {
@@ -243,14 +246,19 @@ footer .footer-logo img {
 
 /* Media Queries */
 
-@media (min-width: 1360px) and (max-width: 1600px) {
-   
-}
-
 @media (min-width: 360px) and (max-width: 640px) {
-    .video video {
-        margin-top: 100px;
+    video {
+        display: none;
     }
+    
+    .video {
+        background-image: url(../img/moldeamos_futuro_landing.png);
+        position: relative;
+        width: 100%;
+        background-size: cover;
+        height: 400px;
+    }
+
     .posgrado {
         margin-top: 30px;
         margin-left: 0px;
